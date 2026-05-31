@@ -1,0 +1,94 @@
+<!-- Esto es un comentario -->
+ <!-- Utilizar ! y luego enter -->
+<!DOCTYPE html> <!-- Especifica version html-->
+<html lang="en"> <!-- Elemento raiz --> 
+<head> <!-- Elemento que contiene informacion meta, estilo, scartch -->
+    <meta charset="UTF-8"> <!-- Especifica codificacion de texto -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Controlar muestreo en diferentes dispositivos -->
+    <title>Mi primera pagina web</title> <!-- Titulo de la pagina web -->
+    <link rel="stylesheet" href="/Introduccion-HTML/Introduccion/styles.css">
+    <style>
+/*         p{
+            color: blue;
+            background-color: gray;
+        } */
+    </style>
+</head>
+<body>
+    <h1 id="titulo">Titulo: Hola Mundo</h1>
+    <h2>Un subtitulo</h2>
+    <h3>Subtitulo 2</h3>
+    <h4>Subtitulo 3</h4>
+    <h5>Subtitulo 4</h5>
+    <h6>Subtitulo 5</h6>
+    <h7>No existe: Subtitulo 6</h7>
+    <p>Lo que escribo aqui es un <span>parrafo</span></p>
+    <img src="https://media.tenor.com/fr_68bCfWzUAAAAM/cat-typing-screaming-cat.gif" alt="Imagen de gato escribiendo" width="324">
+    <br>
+    <a target="_blank" href="https://www.google.com"><img width="20"src="https://e7.pngegg.com/pngimages/337/722/png-clipart-google-search-google-account-google-s-google-play-google-company-text-thumbnail.png" alt="Youtube Icon">Google</a>
+    <a>|</a>
+    <a target="_blank" href="https://www.youtube.com"><img width="20"src="https://img.magnific.com/vector-premium/icono-aplicacion-youtube-logotipo-aplicacion-icono-redes-sociales_561158-3674.jpg" alt="Youtube Icon">Youtube</a>
+    <a>|</a>
+    <a target="_blank" href="https://www.github.com"><img width="20"src="data:image/png;base64,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" alt="Github Icon">GitHub</a>
+    <div>esto es un div</div>
+    <span>esto es un parrafo</span>
+    <h2> Atributos </h2>
+    <p class="Descripcion gris">Aqui estoy describiendo un gato gris y gordito</p>
+    <p class="Descripcion">Aqui estoy describiendo un gato normal</p>
+    <p class="Descripcion naranjo">Aqui estoy describiendo a garfield</p>
+    <p class="Descripcion">Aqui estoy describiendo un gato</p>
+    <p id="parrafo1"></p>
+    <h2 style="color:blue; background-color: aquamarine; font-family:Verdana, Geneva, Tahoma, sans-serif">Frutas</h2>
+    <ol type="i">
+        <li class="destacador">Manzana</li>
+        <li>Naranja</li>
+        <li>Pera</li>
+        <li>Sandia</li>
+    </ol>
+    <ul type="circle">
+        <li>Manzana</li>
+        <li>Naranja</li>
+        <li>Pera</li>
+        <li>Sandia</li>
+    </ul>
+    <form action="/" method="post">
+        <label for="name">Nombre:</label>
+        <br>
+        <input type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
+        <br>
+        <label for="email">Correo:</label>
+        <br>
+        <input type="email" id="email" name="email" placeholder="ejemplo@email.com">
+        <br>
+        <input type="button" name="Desactualizado" id="Desactualizado" placeholder="Desactualizado">Desactualizado
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button>
+    </form>
+    <table border="1">
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Ciudad</th>
+        </tr>
+        <tr>
+            <td>Jean Paul</td>
+            <td>26</td>
+            <td>Santiago</td>
+        </tr>
+        <tr>
+            <td>Felipe</td>
+            <td>34</td>
+            <td>Viña del Mar</td>
+        </tr>
+    </table>
+    <hr>
+    <ul>
+        <il><a href="/Introduccion-HTML/Introduccion/nosotros.html" target="_blank">Nosotros</a></il>
+        <il><a href="/Introduccion-HTML/Introduccion/contactanos.html" target="_blank">Contactanos</a></il>
+    </ul>
+    <div class="group-box">
+        <a class="box">Contenido 1</a>
+        <a class="box">Contenido 2</a>
+    </div>
+</body>
+</html>

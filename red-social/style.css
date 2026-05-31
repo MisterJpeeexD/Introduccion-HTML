@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(203, 203, 203);
+}
+
+#title{
+    text-align: center;
+}
+
+form{
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    padding: 20px;
+}
+
+#name, #mensaje{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#btn-post{
+    width: 100%;
+    background-color: rgb(87, 188, 255);
+    border-color: rgb(62, 139, 190);
+    border-radius: 5px;
+    color: white;
+    justify-content: center;
+}
+
+#btn-post:hover{
+    background-color: rgb(67, 168, 235);
+    border-color: rgb(42, 119, 170);
+}
+
+.posteo{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0 10px 0
+}
